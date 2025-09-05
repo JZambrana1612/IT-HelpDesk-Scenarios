@@ -16,7 +16,7 @@ Password successfully reset. User was able to log in and update credentials.
 ## 📂 Documentation
 
 ### Azure AD (Microsoft Entra ID)
-- ![Reset Password Screen](./images/password-reset/change_pw.png)  
+- ![Reset Password Screen](./images/password-reset/change_password.png)  
 - ![Temporary Password Generated](./images/password-reset/temp_pw1.png)  -> ![Temporary Password Generated2](./images/password-reset/temp_pw2.png)
 
 ### Jira Service Management
