@@ -16,13 +16,13 @@ Password successfully reset. User was able to log in and update credentials.
 ## 📂 Documentation
 
 ### Azure AD (Microsoft Entra ID)
-- ![Reset Password Screen](../images/password-reset/entra-id/reset-password.png)  
-- ![Temporary Password Generated](../images/password-reset/entra-id/temp-password.png)  
+- ![Reset Password Screen](./images/password-reset/change_pw.png)  
+- ![Temporary Password Generated](./images/password-reset/temp_pw1.png)  -> ![Temporary Password Generated2](./images/password-reset/temp_pw2.png)
 
 ### Jira Service Management
-- ![Ticket Created](../images/password-reset/jira/ticket-created.png)  
-- ![Ticket In Progress](../images/password-reset/jira/ticket-inprogress.png)  
-- ![Ticket Resolved](../images/password-reset/jira/ticket-done.png)  
+- ![Ticket Created](./images/password-reset/jira/ticket-created.png)  
+- ![Ticket In Progress](./images/password-reset/stage2_progress.png)  
+- ![Ticket Resolved](./images/password-reset/stage3_ticket_closed.png)  
 
 ---
 
