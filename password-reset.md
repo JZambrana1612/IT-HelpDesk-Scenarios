@@ -20,7 +20,7 @@ Password successfully reset. User was able to log in and update credentials.
 - ![Temporary Password Generated](./images/password-reset/temp_pw1.png)  -> ![Temporary Password Generated2](./images/password-reset/temp_pw2.png)
 
 ### Jira Service Management
-- ![Ticket Created](./images/password-reset/jira/ticket-created.png)  
+- ![Ticket Created](./images/password-reset/create_ticket.png)  
 - ![Ticket In Progress](./images/password-reset/stage2_progress.png)  
 - ![Ticket Resolved](./images/password-reset/stage3_ticket_closed.png)  
 
