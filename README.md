@@ -43,13 +43,7 @@ User successfully regained access.
 ### Documentation
 - Ticket created in Jira (`ITHD-1`).  
 - Progress tracked from *To Do → In Progress → Done*.  
-- Internal notes documented password reset workflow.  
-
-### 📸 Screenshots
-- ![Azure AD – Password Reset Screen](images/password-reset/entra-id/reset-password.png)  
-- ![Jira – Ticket Created](images/password-reset/jira/ticket-created.png)  
-- ![Jira – In Progress](images/password-reset/jira/ticket-inprogress.png)  
-- ![Jira – Done](images/password-reset/jira/ticket-done.png)  
+- Internal notes documented password reset workflow.   
 
 ---
 
@@ -60,13 +54,7 @@ User **Test User Two** was temporarily locked out of their account.
 
 ### Action Plan
 - Block sign-in for the account.  
-- Re-enable sign-in after simulated review.  
-
-### 📸 Screenshot Placeholders
-- ![Azure AD – Block Account](images/account-lock/entra-id/block-account.png)  
-- ![Azure AD – Re-enable Account](images/account-lock/entra-id/reenable-account.png)  
-- ![Jira – Ticket Created](images/account-lock/jira/ticket-created.png)  
-- ![Jira – Resolved](images/account-lock/jira/ticket-done.png)  
+- Re-enable sign-in after simulated review.   
 
 ---
 
@@ -77,13 +65,7 @@ User required updated group membership after department transfer.
 
 ### Action Plan
 - Add Test User 3 to **Finance** group.  
-- Remove Test User 3 from **IT Support** group.  
-
-### 📸 Screenshot Placeholders
-- ![Azure AD – Group List](images/group-management/entra-id/group-list.png)  
-- ![Azure AD – Updated Membership](images/group-management/entra-id/updated-membership.png)  
-- ![Jira – Ticket Created](images/group-management/jira/ticket-created.png)  
-- ![Jira – Resolved](images/group-management/jira/ticket-done.png)  
+- Remove Test User 3 from **IT Support** group.   
 
 ---
 
