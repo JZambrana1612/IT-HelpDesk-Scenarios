@@ -44,7 +44,7 @@ This included **test users** and **security groups** for managing access.
 - Finance Team – assigned to Test User Two  
 - IT Support – assigned to Test User Three  
 
-![Azure AD – Group Directory](images/directory/groups-list.png)  
+![Azure AD – Group Directory](images/directory/directory_groups.png)  
 
 ---
 
