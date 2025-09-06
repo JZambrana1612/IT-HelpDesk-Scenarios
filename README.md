@@ -27,6 +27,27 @@ In addition to serving as a personal portfolio project, this repository is also 
 
 ---
 
+## 📇 Directory Setup
+
+Before running the scenarios, a small test directory was created in **Microsoft Entra ID (Azure AD)** to simulate a real organization.  
+This included **test users** and **security groups** for managing access.
+
+### 👤 Test Users
+- Test User One (`testuser1@<tenant>.onmicrosoft.com`)  
+- Test User Two (`testuser2@<tenant>.onmicrosoft.com`)  
+- Test User Three (`testuser3@<tenant>.onmicrosoft.com`)  
+
+![Azure AD – User Directory](images/directory/users-list.png)  
+
+### 👥 Groups
+- Marketing Team – assigned to Test User One  
+- Finance Team – assigned to Test User Two  
+- IT Support – assigned to Test User Three  
+
+![Azure AD – Group Directory](images/directory/groups-list.png)  
+
+---
+
 ## ✅ Scenario 1: Password Reset
 
 ### Issue
