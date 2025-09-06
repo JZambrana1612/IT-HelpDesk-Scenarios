@@ -37,7 +37,7 @@ This included **test users** and **security groups** for managing access.
 - Test User Two (`testuser2@<tenant>.onmicrosoft.com`)  
 - Test User Three (`testuser3@<tenant>.onmicrosoft.com`)  
 
-![Azure AD – User Directory](images/directory/users-list.png)  
+![Azure AD – User Directory](images/directory/directory_users.png)  
 
 ### 👥 Groups
 - Marketing Team – assigned to Test User One  
