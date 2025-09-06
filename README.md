@@ -91,4 +91,15 @@ User required updated group membership after department transfer.
 ---
 
 ## 📂 Repository Structure
-
+├── account-lock.md
+│
+├── group-management.md
+│
+├── password-reset.md
+│
+├── images/
+│   ├── account-lock/
+│   ├── directory/
+│   └── password-reset/
+│
+└── README.md
