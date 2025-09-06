@@ -17,16 +17,16 @@ User account successfully unlocked and access restored.
 ## 📂 Documentation
 
 ### Azure AD (Microsoft Entra ID)
-- ![Account Disabled](./images/account-lock/revoke_access.png)  
-- ![Account Enabled](./images/account-lock/revoke_access2.png)  
+- ![Account Disabled](./images/account-lock/verify_access.png)  
+- ![Account Enabled](./images/account-lock/grant_access2.png)
+- ![Account Enabled](./images/account-lock/grant_access.png)
 
 ### User View
-- ![Login Error Message](./images/account-lock/revoke_access3.png)  
-- ![Login Error Message 2](./images/account-lock/revoke_access4.png) 
+- ![Login Error Message](./images/account-lock/verify_access2.png)  
 ### Jira Service Management
-- ![Ticket Created](./images/account-lock/jira/ticket-created.png)  
-- ![Ticket In Progress](./images/account-lock/jira/ticket-inprogress.png)  
-- ![Ticket Resolved](./images/account-lock/jira/ticket-done.png)  
+- ![Ticket Created](./images/account-lock/create_ticket.png)  
+- ![Ticket In Progress](./images/account-lock/ticket_progress.png)  
+- ![Ticket Resolved](./images/account-lock/ticket_completed.png)  
 
 ---
 
