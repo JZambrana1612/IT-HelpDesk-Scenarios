@@ -90,6 +90,7 @@ User required updated group membership after department transfer.
 
 ---
 
+```plaintext
 ## 📂 Repository Structure
 ├── account-lock.md
 │
@@ -103,3 +104,5 @@ User required updated group membership after department transfer.
 │   └── password-reset/
 │
 └── README.md
+```
+---
