@@ -116,14 +116,11 @@ Group membership updated successfully.
 
 ## 📂 Repository Structure
 ```plaintext
-├── password-reset/
-│   └── README.md
+├── password-reset.md
 │
-├── account-lock/
-│   └── README.md
+├── account-lock.md
 │
-├── group-management/
-│   └── README.md
+├── group-management.md
 │
 ├── images/
 │   ├── password-reset/
