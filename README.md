@@ -128,4 +128,5 @@ Group membership updated successfully.
 │   ├── group-management/
 │   └── directory/
 │
-└── README.md
+├── README.md
+└── LICENSE
