@@ -1,48 +1,50 @@
 # Scenario: Group Management
 
 ## 📝 Issue
-User required membership updates in Microsoft Entra ID (Azure AD) groups.  
+Test User Three required assignment to an existing group in Microsoft Entra ID (Azure AD). 
 
 ## 🔧 Action Taken
-- Created a new security group in Azure AD.  
-- Added Test User Three to the group.  
-- Verified membership assignment.  
-- (Optional) Removed user from group to demonstrate full lifecycle.  
+- Reviewed directory groups (Finance, IT Support, Marketing).  
+- Verified Test User Three had no existing group memberships.  
+- Added Test User Three to the **IT Support** group.  
+- Confirmed group membership assignment in Entra ID.
 
 ## ✅ Resolution
-Group membership successfully managed and updated.  
+Test User Three was successfully added to the IT Support group, and membership was confirmed. 
 
 ---
 
 ## 📂 Documentation
 
 ### Azure AD (Microsoft Entra ID)
-- ![Group Created](../images/group-management/entra-id/group-created.png)  
-- ![User Added to Group](../images/group-management/entra-id/user-added.png)  
-- ![Group Membership Verified](../images/group-management/entra-id/group-membership.png)  
+- ![Test Use 3](./images/group-management/test_user3.png)  
+- ![User Group Membership Screen](./images/group-management/add_membership.png)
+- ![Group Selected](./images/group-management/selected_group.png)
+- ![Membership Assigned](./images/group-management/membership_assigned.png)
 
 ### Jira Service Management
-- ![Ticket Created](../images/group-management/jira/ticket-created.png)  
-- ![Ticket In Progress](../images/group-management/jira/ticket-inprogress.png)  
-- ![Ticket Resolved](../images/group-management/jira/ticket-done.png)  
+- ![Ticket Created](./images/group-management/membership_ticket_create.png)  
+- ![Ticket In Progress](./images/group-management/membership_ticket_progress.png)  
+- ![Ticket Resolved](./images/group-management/membership_ticket_complete.png)  
 
 ---
 
 ## 🗂 Ticket Log
 **Ticket ID:** ITHD-3  
-**Summary:** Group membership update for Test User Three  
+**Summary:** Add Test User Three to IT Support group  
 **Priority:** Medium  
-**Status:** Closed ✅  
+**Status:** Closed ✅    
 
 **Notes:**  
-- User added to new security group.  
-- Membership verified in Azure AD.  
-- Ticket closed after confirming access.  
+- Verified no existing group memberships for the user.  
+- Added Test User Three to IT Support group.  
+- Confirmed successful membership assignment.  
+- Ticket closed after validation. 
 
 ---
 
 ## 🎯 Skills Demonstrated
-- Azure Active Directory group management  
-- User access control via groups  
+- Azure Active Directory group membership management  
+- Verification of directory users and permissions  
 - Ticket creation and lifecycle management (Jira)  
 - IT documentation practices  
