@@ -15,8 +15,7 @@ In addition to serving as a personal portfolio project, this repository is also 
 |----------|------------|------------------|
 | Password Reset | Azure AD, Jira | Account management, ticketing |
 | Account Lock/Unlock | Azure AD, Jira | Security, user access control |
-| Group Management | Azure AD | Role-based access |
-| License Assignment (Planned) | Azure AD | Application access, troubleshooting |
+| Group Management | Azure AD, Jira | Role-based access, group membership |
 
 ---
 
@@ -40,9 +39,9 @@ This included **test users** and **security groups** for managing access.
 ![Azure AD – User Directory](images/directory/directory_users.png)  
 
 ### 👥 Groups
-- Marketing Team – assigned to Test User One  
-- Finance Team – assigned to Test User Two  
-- IT Support – assigned to Test User Three  
+- Marketing Team  
+- Finance Team  
+- IT Support  
 
 ![Azure AD – Group Directory](images/directory/directory_groups.png)  
 
@@ -64,45 +63,72 @@ User successfully regained access.
 ### Documentation
 - Ticket created in Jira (`ITHD-1`).  
 - Progress tracked from *To Do → In Progress → Done*.  
-- Internal notes documented password reset workflow.   
+- Internal notes documented password reset workflow.
+
+➡️ [View full scenario →](./password-reset.md)
 
 ---
 
-## 🔒 Scenario 2: Account Lock/Unlock *(Coming Soon)*
+## 🔒 Scenario 2: Account Lock/Unlock
 
 ### Issue
 User **Test User Two** was temporarily locked out of their account.  
 
-### Action Plan
-- Block sign-in for the account.  
-- Re-enable sign-in after simulated review.   
+### Action Taken
+- Blocked sign-in for the account in Entra ID.  
+- Verified login failure with lockout message.  
+- Re-enabled sign-in to restore access.  
+
+### Resolution
+Account lock/unlock process completed successfully.  
+
+### Documentation
+- Ticket created in Jira (`ITHD-2`).  
+- Progress tracked from *To Do → In Progress → Done*.  
+- Internal notes documented the lock/unlock workflow.  
+
+
+➡️ [View full scenario →](./account-lock.md)
 
 ---
 
-## 👥 Scenario 3: Group Management *(Coming Soon)*
+## 👥 Scenario 3: Group Management
 
 ### Issue
-User required updated group membership after department transfer.  
+User **Test User Three** required updated group membership.  
 
-### Action Plan
-- Add Test User 3 to **Finance** group.  
-- Remove Test User 3 from **IT Support** group.   
+### Action Taken
+- Verified no existing group memberships.  
+- Added Test User Three to **IT Support** group.  
+- Confirmed membership assignment in Entra ID.  
+
+### Resolution
+Group membership updated successfully.  
+
+### Documentation
+- Ticket created in Jira (`ITHD-3`).  
+- Progress tracked from *To Do → In Progress → Done*.  
+- Internal notes documented group membership update workflow.  
+
+➡️ [View full scenario →](./group-management.md)
 
 ---
 
-```plaintext
 ## 📂 Repository Structure
-├── account-lock.md
+```plaintext
+├── password-reset/
+│   └── README.md
 │
-├── group-management.md
+├── account-lock/
+│   └── README.md
 │
-├── password-reset.md
+├── group-management/
+│   └── README.md
 │
 ├── images/
+│   ├── password-reset/
 │   ├── account-lock/
-│   ├── directory/
-│   └── password-reset/
+│   ├── group-management/
+│   └── directory/
 │
 └── README.md
-```
----
